@@ -19,7 +19,6 @@
 		BD35C73017FE097600070CCE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD35C71817FE097600070CCE /* UIKit.framework */; };
 		BD35C73817FE097600070CCE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD35C73617FE097600070CCE /* InfoPlist.strings */; };
 		BD35C73A17FE097600070CCE /* twinedemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD35C73917FE097600070CCE /* twinedemoTests.m */; };
-		BD35C74817FE12DD00070CCE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD35C74B17FE12DD00070CCE /* Localizable.strings */; };
 		BD35C74D17FE138600070CCE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD35C74B17FE12DD00070CCE /* Localizable.strings */; };
 		BD35C75017FE13C800070CCE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD35C74E17FE13C800070CCE /* Localizable.strings */; };
 		BD35C75117FE13C800070CCE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD35C74E17FE13C800070CCE /* Localizable.strings */; };
@@ -234,7 +233,6 @@
 			files = (
 				BD35C71F17FE097600070CCE /* InfoPlist.strings in Resources */,
 				BD35C75017FE13C800070CCE /* Localizable.strings in Resources */,
-				BD35C74817FE12DD00070CCE /* Localizable.strings in Resources */,
 				BD35C72717FE097600070CCE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
