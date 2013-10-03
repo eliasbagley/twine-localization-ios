@@ -16,6 +16,13 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+
+
+    UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(100, 100, 150, 40)];
+    label.text = NSLocalizedString(@"yes_message", nil);
+
+    [self.window addSubview:label];
+
     return YES;
 }
 

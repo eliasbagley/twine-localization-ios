@@ -1,0 +1,3 @@
+[submodule "twine-localization-strings"]
+	path = twine-localization-strings
+	url = https://github.com/eliasbagley/twine-localization-strings.git
