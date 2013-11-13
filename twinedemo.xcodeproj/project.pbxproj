@@ -162,6 +162,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD35C73D17FE097600070CCE /* Build configuration list for PBXNativeTarget "twinedemo" */;
 			buildPhases = (
+				BD35C75317FE27C400070CCE /* ShellScript */,
 				BD35C70D17FE097600070CCE /* Sources */,
 				BD35C70E17FE097600070CCE /* Frameworks */,
 				BD35C70F17FE097600070CCE /* Resources */,
@@ -248,6 +249,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD35C75317FE27C400070CCE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "twine generate-all-string-files twine-localization-strings/strings.txt twinedemo/ --tags ios";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BD35C70D17FE097600070CCE /* Sources */ = {

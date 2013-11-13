@@ -6,3 +6,6 @@
 
 /* message for displaying yes to the user */
 "yes_message" = "si";
+
+/* this string is for ios only */
+"ios_only" = "ios rules!";
